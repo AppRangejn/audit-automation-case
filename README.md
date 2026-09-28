@@ -37,13 +37,17 @@ The program analyzed the transactions and produced the following metrics:
 ## How to Run
 
 1. Install dependencies:
+```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+```
 
 2. Run analysis:
+```bash
 python3 main.py
+```
 
-3. Output:
+4. Output:
 - Summary dashboard printed in the terminal.
 - Generated audit deliverable: audit_exceptions_report.csv.

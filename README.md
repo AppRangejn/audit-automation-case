@@ -19,19 +19,6 @@ The program analyzed the transactions and produced the following metrics:
 
 ---
 
-## Repository Structure
-
-audit-automation-case/
-├── data/
-│   └── synthetic_fraud_dataset.csv  # Input dataset
-├── main.py                          # Entry point: pipeline orchestration
-├── model.py                         # ML scoring and risk probability calculation
-├── report.py                        # Audit metrics summary and CSV export
-├── requirements.txt
-└── README.md
-
----
-
 ## Module Logic
 
 1. model.py (score_transactions):

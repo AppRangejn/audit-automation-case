@@ -48,6 +48,6 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
-4. Output:
+3. Output:
 - Summary dashboard printed in the terminal.
 - Generated audit deliverable: audit_exceptions_report.csv.
